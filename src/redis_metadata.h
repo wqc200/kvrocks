@@ -80,7 +80,7 @@ class Metadata {
   uint32_t size;
 
  public:
-  explicit Metadata(RedisType type);
+  explicit Metadata(RedisType type, bool readonly=false);
 
   RedisType Type() const;
   virtual int32_t TTL() const;
