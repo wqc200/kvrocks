@@ -1,3 +1,7 @@
+* Version 1.1.18 (@2020-05-27)
+	- MOD: should return empty list when hscan,zscan,sscan is empty
+	- MOD: return cursor "0" when there is no more key left
+
 * Version 1.1.17 (@2020-05-18)
 	- FIX: string getRawValue when expired, should clear raw_value
 
